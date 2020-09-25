@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <style>
+        * {
+            margin: 0;
+            margin-top: 8px;
+            padding: 0;
+            z-index: 1;
+        }
+
+        h1 {
+            justify-content: center;
+            display: flex;
+            margin: 30px 206px;
+            font-size: 12;
+            font-family: cursive;
+            background-color: slategrey;
+        }
+
+        #navbar {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            font-family: serif;
+            border-radius: 23px;
+        }
+
+        #navbar ul {
+            display: flex;
+            padding: 2px 5px;
+            margin: 4px;
+
+        }
+
+        #navbar ul li {
+            list-style: none;
+            color: rgb(39, 7, 7);
+            background-color: black;
+            margin: 5px;
+            padding: 5px 15px;
+            font-size: 1.0rem;
+            border-color: honeydew;
+            border-radius: 12px;
+        }
+
+        #navbar ul li a {
+            display: block;
+            color: white;
+            list-style: none;
+            padding: 3px 14px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover {
+            list-style: none;
+            color: rgb(243, 12, 12);
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: rgb(216, 13, 13);
+            display: flex;
+            position: absolute;
+            height: 60%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+       
+        .content{
+            position: relative;
+            background-color: #e05959;
+            height: fit-content;
+        }
+        
+        p {
+            margin: 41px 0px;
+            position: relative;
+            height: fit-content;
+            padding: 7px 71px;
+            font-size: larger;
+        }
+
+
+        footer {
+            background: black;
+            color: white;
+            padding: 2px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+
+        <nav id="navbar">
+            <ul>
+                <li class="item"><a href='/'>Home</a></li>
+                <li class="item"><a href='/about'>About Us</a></li>
+                <li class="item"><a href='/contact'>Contact Us</a></li>
+                <li class="item"><a href='/services'>Services</a></li>
+            </ul>
+        </nav>
+        <h1>This Is The About Page Of The Site</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum laudantium ratione rerum distinctio
+            sint repellendus omnis praesentium modi labore error recusandae maxime nesciunt, ut, unde fugiat
+            cumque veritatis necessitatibus culpa temporibus, ipsam at? Incidunt nemo, omnis ratione praesentium
+            cum cupiditate, deleniti necessitatibus eos labore placeat tempora tempore laboriosam excepturi
+            accusamus debitis impedit repudiandae eveniet ad molestias consequatur pariatur et! Velit repellendus
+            cum rerum, ipsa minima nisi aut accusamus, voluptates culpa, alias dolorem doloremque. Id iste magnam
+            quaerat debitis accusamus reiciendis animi voluptatem ullam fugit vero consequuntur, neque delectus
+            dolorum ipsam earum voluptatum at dolore. Maiores magni assumenda placeat doloribus reprehenderit
+            cumque cum ipsa, dolore veniam nemo. Veritatis doloribus excepturi vero, numquam provident dolorum
+            eius architecto incidunt recusandae consequatur deserunt consequuntur consectetur, reprehenderit
+            vitae minima asperiores.</p>
+        <footer>
+            <div class="center">
+                Copyright &copy; www.FoodDelivery.com. All rights reserved
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
